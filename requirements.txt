@@ -1,0 +1,13 @@
+# Core
+numpy>=1.24
+torch>=2.1.0
+tqdm>=4.66.0
+pyarrow>=22.0.0
+h5py>=3.15.1
+peft>=0.18.0
+pandas>=2.3.3
+# Likely required by Video-XL's Memory / beacon code (safe include)
+transformers>=4.41.0
+
+# If you run on Windows + CUDA, install the correct torch build from PyTorch's site.
+# requirements.txt can't reliably encode CUDA wheel selection.
